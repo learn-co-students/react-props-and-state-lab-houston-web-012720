@@ -26,7 +26,7 @@ describe('<App />', () => {
   describe('Fetching pets', () => {
     beforeEach(() => {
       fetchMock.reset();
-    });
+    }); 
 
     it('should fetch all pets by default', () => {
       const wrapper = shallow(<App />);
